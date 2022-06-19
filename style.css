@@ -1,0 +1,129 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+
+}
+.bg-darkS{
+    background-color: #f5f5f5;
+}
+
+.navbar-nav .nav-item {
+    padding: 10px 40px;
+}
+.navbar-nav .nav-link i{
+    padding: 0.3rem;
+}
+.navbar-nav .nav-link.active {
+    padding: 0.4srem;
+    color: rgb(255, 255, 255);
+    background-color: #0a0a0a3f;
+    box-shadow: 3px 3px 3px #f5f5f52a;
+    border-radius: 0.4rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255);
+    background-color: gray;
+    border-radius: .5rem;
+}
+
+.startDiv h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navitems {
+    color: aliceblue;
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+.bgimage {
+    background-image: url('npcb2.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    height: 100%;
+}
+.secAbout .secContent{
+    padding: 1rem;
+}
+.secAbout .secContent h1 {
+    color: rgb(255, 255, 255);
+    padding-left: 0.5rem;
+}
+.secAbout{
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+.secAbout .secContent p {
+    text-shadow: 3px 5px 3px #30303081;
+    color: rgb(0, 0, 0);
+}
+.secAbout .secContent{
+    border-radius: .5rem;
+    background-color: #0a0a0a3f;
+    box-shadow: 3px 3px 3px #f5f5f52a;
+}
+
+.secContact {
+    /* font-family: 'Sansita Swashed', cursive; */
+    padding: 1rem;
+    text-shadow: 3px 3px 3px #3030308e;
+    color: #fff;
+    border-radius: .5rem;
+    background-color: #0000005b;
+    box-shadow: 3px 3px 3px #f5f5f52a;
+}
+.secContact p{
+    font-size: 16px;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 400px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 100%;
+  }
+.heroDiv{
+    padding:1rem;
+    border-radius:0 .5rem;
+    background-color: #0a0a0a3f;
+    box-shadow: 3px 3px 3px #f5f5f52a;
+}
+.heroDiv i{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.secAbout .newImg{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky {
+    padding-top: 60px;
+  }
